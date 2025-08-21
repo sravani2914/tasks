@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="submit.html" method="get" enctype="text/plain">
+        <label for="mobile">Mobile number:</label>
+        <input type="text" pattern="\+91[6-9][0-9]{9}" id="mobile" required>
+        <label for="pan">Pan card number:</label>
+        <input type="text" pattern="[A-Z]{5}[1-9]{4}[A-Z]" id="pan" required>
+        <label for="bank">Bank Number:</label>
+        <input type="text" pattern="[1-9]{11}" id="bank" required>
+        <input type="submit">
+    </form>
+</body>
+</html>
