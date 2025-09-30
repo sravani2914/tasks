@@ -1,0 +1,49 @@
+.all .container1{
+    /* border: 2px solid; */
+    height: 330px;
+    width: 330px;
+    display: inline-block;
+    
+    margin: 25px;
+    background-color: white;
+    /* padding-left: 10px  ; */
+   
+}
+.container1 .sec{
+    height: 75%;
+    width: 95%;
+    /* position: relative; */
+    
+    /* border: 2px solid red; */
+}
+.container1 .sec img{
+    height: 80%;
+    width: 100%;
+    padding-right: 5px;
+    padding-top: 8px;
+    /* opacity: 0.9;
+    filter: grayscale(60%); */
+    
+}
+
+.container1 .sec p{
+    text-align: left;
+    font-size: 85%;
+}
+.container1 .sec h3{
+    font-size: 100%;
+    text-align: left;
+}
+
+.spn{
+    /* position: absolute;  */
+    /* top: 0;
+    left: 0; */
+    background-color: black;
+    color: white;
+    font-size: 90%;
+    padding: 5px;
+}
+body{
+    background-color: lightgrey;
+}
